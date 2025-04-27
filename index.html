@@ -1,13 +1,71 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جامعة سمارت أورا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="شعار جامعة سمارت أورا">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">الصفحة الرئيسية</a></li>
+                <li><a href="#programs">البرامج</a></li>
+                <li><a href="#admissions">التسجيل</a></li>
+                <li><button id="change-lang">تغيير اللغة</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <h1>قدم تعليمك في جامعة سمارت أورا</h1>
+        <p>حقق أهدافك الأكاديمية مع برامج مبتكرة تركز على المستقبل</p>
+        <button class="btn-get-started">ابدأ الآن</button>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <h2>البرامج التي نقدمها</h2>
+        <div class="programs">
+            <div class="program">
+                <img src="assets/leadership.png" alt="برنامج القيادة والإدارة العامة">
+                <h3>القيادة والإدارة العامة</h3>
+                <p>بناء مهارات القيادة والإدارة لمستقبل أفضل</p>
+            </div>
+            <div class="program">
+                <img src="assets/ai.png" alt="الذكاء الاصطناعي وتحليل البيانات">
+                <h3>الذكاء الاصطناعي وتحليل البيانات</h3>
+                <p>تطوير تقنيات الذكاء الاصطناعي وتحليل البيانات الكبيرة</p>
+            </div>
+            <div class="program">
+                <img src="assets/cybersecurity.png" alt="الأمن السيبراني وتقنية البلوك تشين">
+                <h3>الأمن السيبراني وتقنية البلوك تشين</h3>
+                <p>تأمين البيانات باستخدام تقنيات حديثة مثل البلوك تشين</p>
+            </div>
+            <div class="program">
+                <img src="assets/human-centered.png" alt="الحوسبة المتمركزة حول الإنسان">
+                <h3>الحوسبة المتمركزة حول الإنسان</h3>
+                <p>تطوير التعليم الموجه نحو احتياجات الإنسان والتكنولوجيا</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 جامعة سمارت أورا</p>
+        <div class="social-icons">
+            <a href="#">فيسبوك</a>
+            <a href="#">تويتر</a>
+            <a href="#">لينكد إن</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
